@@ -5,6 +5,7 @@ on:
     branches: [ "geea" ]
   pull_request:
     # The branches below must be a subset of the branches above
+  workflow_call:
 
 jobs:
   eslint:
